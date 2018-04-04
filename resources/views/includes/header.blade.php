@@ -9,6 +9,8 @@
 	<script type="text/javascript" src="{{ url('js/jquery.js') }}"></script>
     <script type="text/javascript" src="{{ url('js/bootstrap.js') }}"></script>
 	<script type="text/javascript" src="{{ url('js/jquery-ui.js') }}"></script>
+    <link rel="shortcut icon" href="#">
+
     	
 	<script>
       $( function()

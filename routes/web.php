@@ -19,5 +19,5 @@ Route::post('/register', 'RegistersController@register');
 Route::get('importExport', 'MaatwebsiteDemoController@importExport');
 Route::get('downloadExcel/{type}', 'MaatwebsiteDemoController@downloadExcel');
 Route::post('importExcel', 'MaatwebsiteDemoController@importExcel');
-// Route::get('display', 'MaatwebsiteDemoController@displayCsv')->name('display');
+Route::get('display', 'MaatwebsiteDemoController@displayCsv')->name('display');
 Route::get('candidate', 'CandidateController@generateList')->name('candidate');

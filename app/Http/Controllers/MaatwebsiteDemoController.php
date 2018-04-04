@@ -39,7 +39,7 @@ class MaatwebsiteDemoController extends Controller
             if (!empty($data) && $data->count()) {
                 foreach ($data as $key => $value) {
                     $insert[] = [
-                        'name' => $value['name'],  // yestai gara sabai lai . array ko format ma banau
+                        'name' => $value['name'],
                         'gender' => $value['gender'],
                         'phoneno' => $value['phoneno'],
                         'email' => $value['email'],
